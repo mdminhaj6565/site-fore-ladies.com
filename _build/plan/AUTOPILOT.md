@@ -29,7 +29,7 @@ Used by the scheduled tasks. Repository: `mdminhaj6565/site-fore-ladies.com` (pu
 
 ## B. Search Console run (Monday and Thursday, built-in browser)
 
-Property: `sc-domain:fore-ladies.com` (Domain property; verify first if Search Console says "not verified" — that needs the owner's DNS TXT record).
+Property: URL-prefix `https://fore-ladies.com/` (verified; use `resource_id=https%3A%2F%2Ffore-ladies.com%2F` in Search Console URLs). The Domain property `sc-domain:fore-ladies.com` is unverified — use it only if it later shows as verified.
 
 1. Performance, `num_of_days=28&compare_date=PREV`, Queries and Pages tabs (visible table only). Daily data `num_of_days=90&breakdown=date` for the newest complete week. Pages (indexing) reasons and counts; Sitemaps status.
 2. Analysis: striking-distance queries (position 8–20), high-impression low-CTR pages, falling pages, queries without a matching page, indexing problems.
