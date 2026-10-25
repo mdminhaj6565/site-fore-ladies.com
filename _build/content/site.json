@@ -1,0 +1,44 @@
+{
+ "name": "Fore Ladies Golf",
+ "short_name": "Fore Ladies",
+ "url": "https://fore-ladies.com",
+ "tagline": "Women's golf clothes, golf dresses and tennis apparel for every style",
+ "announcement": "A woman-owned & operated small business",
+ "founded": "2017",
+ "founder": "Jessica Benzing",
+ "location": "Plainfield, Illinois",
+ "ga4": "G-H4SDP668D8",
+ "bing_verify": "CBFC7690DE9278015041A1158517B33E",
+ "google_verify": "",
+ "contact_email": "",
+ "logo": "/s-81574z95hf/images/stencil/200x75/fore-ladies-logo-landscape-white-200_1706288769__43499.original.png",
+ "logo_w": 152,
+ "logo_h": 75,
+ "favicon_src": "/s-81574z95hf/product_images/favicon_t-1565839707.png",
+ "colors": {"ink": "#111111", "accent": "#e9446e", "accent_dark": "#b8264d", "blush": "#fdf0f3", "muted": "#5f5f66", "line": "#e7e1e3"},
+ "checkout_note": "Online checkout isn't available on this website right now.",
+ "nav": [
+  {"label": "Golf Apparel", "href": "/womens-golf-clothes", "children": [
+   {"label": "Tops", "href": "/womens-golf-shirts"},
+   {"label": "Bottoms & Skorts", "href": "/bottoms"},
+   {"label": "Golf Dresses", "href": "/golf-dresses"},
+   {"label": "Outerwear", "href": "/outerwear"},
+   {"label": "Petite", "href": "/petite-womens-golf-clothes"},
+   {"label": "Plus Size", "href": "/plus-size-womens-golf-clothes"}]},
+  {"label": "Tennis", "href": "/tennis-clothes-women"},
+  {"label": "Shoes", "href": "/womens-golf-shoes"},
+  {"label": "Accessories", "href": "/accessories", "children": [
+   {"label": "Bags", "href": "/bags"},
+   {"label": "Hats & Visors", "href": "/accessories/hats"},
+   {"label": "Head Covers", "href": "/accessories/head-covers"},
+   {"label": "Club Grips", "href": "/accessories/golf-club-grips"},
+   {"label": "Push Carts", "href": "/golf-push-carts"}]},
+  {"label": "Gifts", "href": "/golf-gifts-for-women", "children": [
+   {"label": "Tee Box", "href": "/fore-ladies-tee-box"},
+   {"label": "Gift Boxes", "href": "/golf-gift-boxes"},
+   {"label": "Subscription Boxes", "href": "/subscription-gift-boxes"}]},
+  {"label": "Brands", "href": "/brands"},
+  {"label": "Size Charts", "href": "/womens-golf-clothes-size-charts"},
+  {"label": "Blog", "href": "/blog"}
+ ]
+}

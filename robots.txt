@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /_build/
+Disallow: /search
+Disallow: /cart
+Disallow: /checkout
+Disallow: /login
+Disallow: /wishlist
+
+Sitemap: https://fore-ladies.com/sitemap.xml
