@@ -17,7 +17,7 @@
 - প্রতি page-এর HTML 150–280 KB, ৫০টির বেশি বাইরের script (Klaviyo, Justuno, Smile.io, Shogun, OptinMonster, Facebook, Bing, Affiliatly…)। GA4 শুধু homepage-এ।
 - কোনো page-এ Organization/Article schema ছিল না; product page-এর পুরোনো Product schema-য় ভুল URL (trailing slash) ও মেয়াদোত্তীর্ণ price।
 - Spam/adult check: কোনো লুকানো link, injected script বা জুয়া/adult content পাওয়া যায়নি ("casino" শব্দটি একটি LPGA/Symetra tour post-এর স্বাভাবিক উল্লেখ)।
-- Search Console: `fore-ladies.com` property যোগ করা আছে কিন্তু **verify করা নেই** — data দেখা যায়নি।
+- Search Console: Domain property `fore-ladies.com` verify করা ছিল না; পরে URL-prefix property `https://fore-ladies.com/` verified পাওয়া গেছে (নিচে Launch দেখুন)।
 
 ## ২. যা করা হয়েছে
 
@@ -45,13 +45,20 @@
 Pass 34, Partial 10, Fail 1, Owner 5, N/A 4। বিস্তারিত টেবিল report doc-এর Audit tab-এ।
 
 বাকি প্রধান কাজ:
-1. **Search Console verify** (DNS TXT) → তারপর indexing, query, CTR দেখে title/description ও content update।
+1. Search Console data দেখে (প্রতি সোম ও বৃহস্পতি) title/description, content ও internal link update।
 2. Contact email/ফোন দিলে contact page ও E-E-A-T সম্পূর্ণ হবে।
 3. ছবিহীন 245টি product-এর ছবি (owner-এর কাছে থাকলে) যোগ করা।
-4. Competitor gap বিশ্লেষণ (GSC query পাওয়ার পর)।
+4. Competitor gap বিশ্লেষণ (GSC query জমা হলে)।
 
-## ৪. Owner-এর করণীয়
-- hPanel-এ **backup নিয়ে** Git deploy connect ও Auto Deployment On (README দেখুন)।
-- DNS-এ Google verification TXT record।
-- Contact তথ্য ও আসল social profile link।
-- Repo চাইলে Private করুন (Search Console data repo-তে রাখা যাবে)।
+## ৪. Launch (২৫ অক্টোবর ২০২৬)
+- Hostinger Git auto-deploy connect হয়েছে; নতুন site live — homepage, 13টি নতুন guide, 2টি update ও `sitemap.xml` সব 200।
+- Search Console-এ URL-prefix property `https://fore-ladies.com/` verified; `sitemap.xml` resubmit; 18টি URL-এর indexing request (কোনো quota error নেই)। বিস্তারিত `_build/plan/GSC-PROGRESS.md`-এ, সংখ্যা private report doc-এ।
+- নিয়মিত নতুন article-এর জন্য scheduled task চালু: সাধারণ মাসে প্রতি 3 দিনে, Nov–Dec ও Mar–May-তে একদিন পরপর (`_build/plan/CONTENT-CALENDAR.md`)। Search Console run প্রতি সোম ও বৃহস্পতি।
+- Index হতে সাধারণত কয়েক সপ্তাহ লাগে; ranking বা indexing-এর নিশ্চয়তা দেওয়া যায় না।
+
+## ৫. Owner-এর করণীয়
+- Contact তথ্য (email) ও আসল social profile link দিন।
+- ঐচ্ছিক: Domain property (`sc-domain:fore-ladies.com`) verify করতে DNS-এ Google TXT record।
+- Search Console-এর Sitemaps থেকে পুরোনো `/sitemap.php` ও `/sitemap` সরিয়ে দিতে পারেন (এগুলো আগের store-এর)।
+- সোম/বৃহস্পতির Search Console run-এর সময় (সকাল 09:46) computer ও Claude desktop app চালু রাখুন।
+- Repo চাইলে Private করুন (তখন Search Console data repo-তে রাখা যাবে)।
