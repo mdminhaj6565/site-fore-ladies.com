@@ -6,7 +6,7 @@ Autopilot takes the planned row with the lowest `#`, writes it, and marks it pub
 
 | # | Target date | Status | Working title | Main keyword | Why | Labels | Slug |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 2026-10-28 | planned | Golf Jackets for Women: Softshell vs Windbreaker vs Insulated | women's golf jacket | Fall layering demand; links outerwear | Outerwear, Weather | womens-golf-jackets-guide |
+| 1 | 2026-10-28 | published 2026-10-28 (https://fore-ladies.com/blog/womens-golf-jackets-guide, 1499 words) | Golf Jackets for Women: Softshell vs Windbreaker vs Insulated | women's golf jacket | Fall layering demand; links outerwear | Outerwear, Weather | womens-golf-jackets-guide |
 | 2 | 2026-11-01 | planned | Gift Ideas for Women Golfers, Sorted by the Kind of Golfer She Is | gifts for women golfers | Holiday gift season starts | Gifts | gift-ideas-for-women-golfers |
 | 3 | 2026-11-03 | planned | Stocking Stuffers for Women Who Golf | golf stocking stuffers for women | Holiday season; small accessories | Gifts, Accessories | golf-stocking-stuffers-for-women |
 | 4 | 2026-11-05 | planned | Golf Sweaters for Women: Merino, Cotton or Synthetic? | women's golf sweater | Cold-season layering cluster | Outerwear, Weather | womens-golf-sweaters-guide |
