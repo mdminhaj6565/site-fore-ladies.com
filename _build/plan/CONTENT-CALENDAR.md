@@ -8,7 +8,7 @@ Autopilot takes the planned row with the lowest `#`, writes it, and marks it pub
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | 2026-10-28 | published 2026-10-28 (https://fore-ladies.com/blog/womens-golf-jackets-guide, 1499 words) | Golf Jackets for Women: Softshell vs Windbreaker vs Insulated | women's golf jacket | Fall layering demand; links outerwear | Outerwear, Weather | womens-golf-jackets-guide |
 | 2 | 2026-11-01 | published 2026-11-01 (https://fore-ladies.com/blog/gift-ideas-for-women-golfers, 1492 words) | Gift Ideas for Women Golfers, Sorted by the Kind of Golfer She Is | gifts for women golfers | Holiday gift season starts | Gifts | gift-ideas-for-women-golfers |
-| 3 | 2026-11-03 | planned | Stocking Stuffers for Women Who Golf | golf stocking stuffers for women | Holiday season; small accessories | Gifts, Accessories | golf-stocking-stuffers-for-women |
+| 3 | 2026-11-03 | published 2026-11-03 (https://fore-ladies.com/blog/golf-stocking-stuffers-for-women, 1470 words) | Stocking Stuffers for Women Who Golf: Small Gifts She'll Actually Use | golf stocking stuffers for women | Holiday season; small accessories | Gifts, Accessories | golf-stocking-stuffers-for-women |
 | 4 | 2026-11-05 | planned | Golf Sweaters for Women: Merino, Cotton or Synthetic? | women's golf sweater | Cold-season layering cluster | Outerwear, Weather | womens-golf-sweaters-guide |
 | 5 | 2026-11-07 | planned | Gifts for Women Who Are New to Golf | golf gifts for beginners women | Holiday season; beginner cluster | Gifts, Beginners | gifts-for-women-new-to-golf |
 | 6 | 2026-11-09 | planned | Gift Ideas for Women Who Play Tennis | tennis gifts for women | Holiday season; tennis section | Gifts, Tennis | tennis-gift-ideas-for-women |
